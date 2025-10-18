@@ -1,0 +1,29 @@
+# Sistema Gestor - Git Ignore
+
+# API Keys e configurações sensíveis
+config/config_env.php
+
+# Uploads temporários
+uploads/temp/*
+!uploads/temp/.gitkeep
+
+# Logs
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache
+*.cache
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Backups
+*.bak
+*.old
+*~
